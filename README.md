@@ -8,12 +8,6 @@ Keccak is the core of the SHA-3 family of cryptographic hash functions, and its 
 
 A critical primitive in this implementation is the `rol32` function, which performs a **bitwise left rotation** on 32-bit words. This operation is essential in the $\theta$, $\rho$, and $\pi$ steps of the Keccak permutation, contributing to the diffusion and mixing of the state.
 
-## Algorithm Overview
-
-Below is a simplified description of the permutation loop used in Keccak-f[1600], highlighting the use of `ROL` (bitwise rotation):
-![Keccak Permutation Diagram](keccak32.png)
-
-
 ## Authors
 
 - Alessandra Dolmeta — [alessandrra.dolmeta@polito.it](mailto:alessandrra.dolmeta@polito.it)  
